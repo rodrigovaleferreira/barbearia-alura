@@ -1,0 +1,43 @@
+header h1{
+    padding-left: 20px;
+}
+
+
+#banner{
+    width: 100%;
+}
+
+.missao{
+    font-size: 20px;
+}
+
+.text{
+    text-align: center;
+    background-color: #cccccc;
+    padding: 30px;
+}
+.missao strong{
+    color: red;
+}
+
+.itens{
+    font-style: italic;
+    font-size: 18px ;
+}
+
+.beneficios{
+    background-color: #fff;
+    padding: 20px;
+}
+h3{
+    text-align: center;
+}
+.beneficios ul{
+    display: inline-block;
+    vertical-align:top;
+    width: 20%;
+    margin-right:15% ;
+}
+.imagem-beneficio{
+    width: 50%;
+}

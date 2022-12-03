@@ -137,3 +137,38 @@ form label, form legend{
 .titulo2{
     padding-top: 1.2%;
 }
+
+.enviar{
+    display: block;
+    padding: 8px 50px;
+    width: 36%;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #c78c19;
+    transition: 1s all;
+}
+
+.enviar:hover{
+    background-color: #bca983 ;
+    /*aumentar a escala do elemento*/
+    transform:scale(1.1);
+    /* girar o elemento, 70deg= 70 graus, o transform tem que ta junto para todos serem lidos, como mostrado abaixo
+    transform: rotate(70deg) scale(1.1);*/
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+table thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+table td, th{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 6px;
+}

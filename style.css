@@ -73,7 +73,7 @@ nav a:hover{
 
 /*quando passar o mouse alterar o h2*/
 .produtos li:hover h2{
-    font-size: 33px;
+    font-size: 31px;
 }
 
 .produtos h2{
@@ -101,13 +101,11 @@ footer p{
     margin-top: 1.5%;
 }
 
-main{
-    width: 940px;
-    margin: 0 auto;
-}
 
 form{
     margin: 30px 0;
+    width: 940px;
+    margin: 2% auto;
 }
 
 /*display block pra cada linha ocupar todo o espaço da tela, colocando assim em coluna*/
@@ -165,7 +163,9 @@ form label, form legend{
 }
 
 table{
-    margin: 20px 0 40px;
+    margin:20px 18%;
+    width: 200px;
+
 }
 
 table thead{
@@ -194,6 +194,13 @@ table td, th{
     clear: left;
 }
 
+.text-principal{
+    padding: 3em 0;
+    background:#fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .text-principal p{
     margin: 0 0 1em;
 }
@@ -204,6 +211,56 @@ table td, th{
 
 .text-principal em{
     font-style: italic;
+}
+
+/*padding pra distancia a div mapa das outras*/
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE,#888888);
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*margin para distancia o texto do mapa*/
+.mapa p{
+    margin: 2em 0;
+    text-align: center;
+}
+
+
+.beneficios{
+    padding: 3em 0;
+    background: #888888;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens{
+    /*separar os textos(altura da linha)*/
+    line-height: 1.5;
+}
+
+/*adicionar algum elemento antes ou depois do texto, esse elemento não é selecionavel*/
+.itens::before{
+    content: "🟊";
+}
+
+/*selecionar o primero item de todos os elementos que está na classe
+Para selecionar outros elementos usamos o .itens:nth-child(numero-da-linha)*/
+.itens:first-child{
+    font-weight: bolder;
 }
 
 .imagem-beneficio{
@@ -220,19 +277,9 @@ table td, th{
     margin: 0 20px 20px 0;
 }
 
-/*padding pra distancia a div mapa das outras*/
-.mapa{
-    padding: 3em 0;
-}
-
-/*margin para distancia o texto do mapa*/
-.mapa p{
-    margin: 2em 0;
-    text-align: center;
-}
 
 /*centralizar o video na tela*/
 .video{
     width: 560px;
-    margin: 1em auto;
+    margin: 2em auto;
 }
